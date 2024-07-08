@@ -3,13 +3,25 @@ body{
 }
 
 .banner{
-    background-color: dimgrey;
+    background-color: gainsboro;
     padding: 16vw;
 }
 .banner_second{
-    background-color: gainsboro;
+    background-color: dimgrey;
     padding: 3vw;
     border: 1px solid white;
     margin: auto;
     text-align: center;
+    color: white;
+}
+.banner-container{
+    background-color: gainsboro;
+}
+.banner-column{
+    background-color: grey;
+    margin: auto;
+    text-align: center;
+    color: white;
+    border: 1.5px solid white;
+    padding: 2vw;
 }
