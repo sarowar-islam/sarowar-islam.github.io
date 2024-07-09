@@ -1,0 +1,99 @@
+
+body{
+    font-size: 1.5vw;
+    background: linear-gradient(rgba(82, 78, 78, 0.5), rgba(65, 59, 59, 0.5)), url(SDSD.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-attachment: scroll;
+    margin: 6%;
+    
+    
+}
+.box{
+    max-width: 500px;
+    border: 15px solid red;
+    background-color: black;
+    padding: 40px;
+    margin: auto;
+    outline: 20px solid blue;
+    font-family: "Ga Maamli", sans-serif;
+    color: yellow;
+    
+}
+
+
+div p{
+    text-indent: 20%;
+    text-align: justify;
+    line-height: 3vw;
+    text-shadow: 5px,5px rgb(240, 240, 231);
+
+}
+
+#linkproperties{
+    display: block;
+    width: 45%;
+    background-color: rgb(12, 33, 126);
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    border-radius: 10px 10px;
+    text-align: center;
+}
+#linkproperties:hover{
+   
+    background-color: rgb(135, 206, 43);
+    color: black;
+}
+/* #linkproperties:visited{
+   
+    background-color: rgb(180, 19, 19);
+    color: rgb(224, 217, 217);
+} */
+
+.position{
+
+    display: block;
+
+    padding: 15px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+    margin: auto;
+    background-color: aquamarine;
+     position: sticky;
+     top: 0;
+}
+
+.firsttable{
+    padding: 7vw;
+    background-color: aquamarine;
+}
+.secondtable{
+    padding: 6vw;
+    width: 40%;
+    margin: auto;
+    background-color: yellowgreen;
+}
+
+.secondtable table,table th, table td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 1vw;
+    text-align: center;
+    border-color: red;
+    
+}
+.secondtable table{
+    margin: auto;
+    border-color: brown;
+}
+
+.secondtable table th{
+    background-color: green;
+}
+.secondtable td{
+    background-color: black;
+    color: white;
+}
